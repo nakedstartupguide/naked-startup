@@ -9,13 +9,13 @@ export default function HomeCallouts() {
             title: 'Run an effective fundraising process',
             subtitle: 'Walk down this step by step guide to early stage startup fundraising.',
             urlText: 'Get started with fundraising',
-            url: useBaseUrl('/docs/fundraising'),
+            url: useBaseUrl('/fundraising'),
         },
         {
             title: 'Discover product-market-fit',
             subtitle: 'Coming soon. Sign up on the waiting list.',
             urlText: 'Sign up',
-            url: useBaseUrl('/docs/discovery'),
+            url: useBaseUrl('/discovery'),
         }
     ]
     return (
