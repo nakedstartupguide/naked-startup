@@ -5,6 +5,10 @@
  */
 
 :root {
+  --ifm-background-color: #f8fafc;
+  --ifm-background-surface-color: #f1f5f9;
+  --ifm-background-surface-color-dark: #e2e8f0;
+  --ifm-footer-background-color: #f8fafc;
   --ifm-color-primary: rgb(43, 120, 91);
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -24,4 +28,21 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ Footer
+ */
+ .footer {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.footer__links {
+  margin-bottom: 1rem;
+
 }

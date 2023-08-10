@@ -94,7 +94,25 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        links: [
+          {
+            title: "Community",
+            items: [
+              {
+                label: "Twitter",
+                href: "https://twitter.com/NkdStartupGuide",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/nakedstartupguide/naked-startup",
+              },
+              {
+                label: "Newsletter",
+                href: "https://github.com/nakedstartupguide/naked-startup",
+              }
+            ],
+          }
+        ],
         copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
