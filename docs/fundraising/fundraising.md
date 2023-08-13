@@ -2,4 +2,6 @@
 sidebar_position: 2
 ---
 
-# Fundrasing page
+# Fundrasing Guide
+
+Stay tuned.

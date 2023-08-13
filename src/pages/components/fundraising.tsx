@@ -25,7 +25,7 @@ export default function Fundraising(): JSX.Element {
               Walk down this step by step guide to early stage startup fundraising.
             </p>
             <a className="button button--secondary" href="/fundraising">
-              Fundraising
+              Fundraising Guide
             </a>
           </div>
         </div>

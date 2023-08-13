@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [slorber, yangshun]
+authors: Naked Startup Guide
 tags: [facebook, hello, docusaurus]
 ---
 

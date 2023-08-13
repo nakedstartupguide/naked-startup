@@ -67,12 +67,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Naked Startup',
+        title: 'Naked Startup Guide',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.jpeg',
         },
         items: [
+          { 
+            type: 'doc',
+            docId: 'foundation/foundation',
+            position: 'left',
+            label: 'Foundation',
+          },
           {
             type: 'doc',
             docId: 'fundraising/fundraising',
@@ -81,14 +87,17 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'discovery/discovery',
+            docId: 'path-to-pmf/path-to-pmf',
             position: 'left',
-            label: 'Discovery',
+            label: 'Path to PMF',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'right'},
           {
             href: 'https://twitter.com/NkdStartupGuide ',
-            label: 'Twitter',
+            label: 'Subscribe on Newsletter ',
             position: 'right',
           },
         ],
@@ -96,24 +105,24 @@ const config = {
       footer: {
         links: [
           {
-            title: "Community",
+            // title: "Community",
             items: [
               {
-                label: "Twitter",
+                label: "Follow us on Twitter",
                 href: "https://twitter.com/NkdStartupGuide",
               },
+              // {
+              //  label: "Check us out on Instagram",
+              //  href: "https://instagram.com/nakedstartup.guide",
+              //},
               {
-                label: "GitHub",
-                href: "https://github.com/nakedstartupguide/naked-startup",
-              },
-              {
-                label: "Newsletter",
+                label: "Contribute to this Guide on Github",
                 href: "https://github.com/nakedstartupguide/naked-startup",
               }
             ],
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}`,
+        copyright: `Copyright © ${new Date().getFullYear()} // Feel free to share with your fellow founders :) `,
       },
       prism: {
         theme: lightCodeTheme,

@@ -8,12 +8,12 @@ export default function Signup(): JSX.Element {
       <div className={clsx("row row--no-gutters shadow--md", styles.item)}>
         <div className={clsx("col col--6", styles.item__inner)}>
           <div>
-            <h1 className="margin-bottom--md">Discover product-market-fit</h1>
+            <h1 className="margin-bottom--md">Find a path to product-market-fit</h1>
             <p className="margin-bottom--md">
-               Coming soon. Sign up on the waiting list.
+               Work in progress and coming soon. Sign up to receive updates.
             </p>
-            <a className="button button--secondary" href="https://github.com/nakedstartupguide/naked-startup">
-              Sign up
+            <a className="button button--secondary" href="https://twitter.com/NkdStartupGuide">
+              Subscribe
             </a>
           </div>
         </div>
